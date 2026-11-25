@@ -1,7 +1,9 @@
-import { Project as PrismaProject } from "@prisma/client";
+//import { Project as PrismaProject } from "@prisma/client";
+//export type Project = PrismaProject;
 
-export type Project = PrismaProject;
+import type { Project } from "@prisma/client";
 
+export type { Project } from "@prisma/client";
 export const PROJECTS_PER_PAGE = 9;
 
 export enum ProjectStatus {
