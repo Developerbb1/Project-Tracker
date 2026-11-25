@@ -4,7 +4,7 @@ import ToastProvider from "@/app/components/ui/ToastProvider";
 
 export const metadata: Metadata = {
   title: "ProjectTracker",
-  description: "Project management dashboard",
+  description: "Manage your projects efficiently",
 };
 
 export default async function RootLayout({
